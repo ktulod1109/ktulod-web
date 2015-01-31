@@ -1,0 +1,119 @@
+body
+{
+	margin: 20px 0;
+	text-align: center;
+	background-color: #fdfdfd;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #4a4a4d;
+}
+
+footer
+{
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	text-align: center;
+	background-color: #fdfdfd;
+	line-height: 120%;
+	position: fixed;
+}
+
+.content {
+	margin: 0;
+}
+
+.name
+{
+	font-weight: 700;
+	font-size: 80px;
+	width: 400px;
+	text-align: center;
+	cursor: pointer;
+
+	display: inline-block;
+	transition: color 0.5s ease;
+}
+
+.name a:link, .name a:visited, .name a:active
+{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #4a4a4d;
+	text-decoration: none;
+
+	transition: color 0.4s ease;
+}
+.name:hover {color: #aaaaad;}
+
+.menu
+{
+	font-weight: 400;
+	font-size: 30px;
+	text-align: center;
+
+	display: inline-block;
+}
+
+.menu-item
+{
+	display: inline-block;
+	min-width: 200px;
+	cursor: pointer;
+
+	transition: color 0.4s ease;
+}
+
+.menu-item.about:after {content: "About";}
+.menu-item.follow:after {content: "Follow";}
+.menu-item.contact:after {content: "Contact";}
+
+.menu-item:hover{color: #aaaaad;}
+
+.detail-wrapper
+{
+	margin: 30px auto;
+	max-width: 1400px;
+}
+
+.detail-label
+{
+	font-size: 24px;
+	height: 30px;
+}
+
+.detail-label.default:after {content: "Select or filter by category.";}
+.detail-label.linkedin:after {content: "Connect to me on LinkedIn.";}
+.detail-label.facebook:after {content: "Friend me on Facebook.";}
+.detail-label.github:after {content: "Fork me on GitHub.";}
+.detail-label.email:after {content: "Contact me by email.";}
+.detail-label.flickr:after {content: "Explore me on Flickr.";}
+.detail-label.twitter:after {content: "Follow me on Twitter.";}
+
+.i-button
+{
+	display: inline-block;
+
+	width: 300px;
+	height: 300px;
+	margin: 20px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-filter: grayscale(60%);
+	transition: -webkit-filter 0.2s ease;
+}
+.i-button.linkedin {background-image: url('/assets/img/linkedin-button.png');}
+.i-button.facebook {background-image: url('/assets/img/facebook-button.png');}
+.i-button.github {background-image: url('/assets/img/github-button.png');}
+.i-button.email {background-image: url('/assets/img/email-button.png');}
+.i-button.flickr {background-image: url('/assets/img/flickr-button.png');}
+.i-button.twitter {background-image: url('/assets/img/twitter-button.png');}
+.i-button:hover {
+	-webkit-filter: grayscale(0%) drop-shadow(0px 8px 5px rgba(0,0,0,0.5));
+}
+
+.hidden
+{
+	display: none;
+}
