@@ -28,7 +28,6 @@ footer
 {
 	font-weight: 700;
 	font-size: 80px;
-	width: 400px;
 	text-align: center;
 	cursor: pointer;
 
@@ -73,7 +72,7 @@ footer
 .detail-wrapper
 {
 	margin: 30px auto;
-	max-width: 1400px;
+	max-width: 1000px;
 }
 
 .detail-label
@@ -93,9 +92,8 @@ footer
 .i-button
 {
 	display: inline-block;
-
-	width: 240px;
-	height: 240px;
+	width: 200px;
+	height: 200px;
 	margin: 20px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -115,4 +113,16 @@ footer
 .hidden
 {
 	display: none;
+}
+
+/* Responsive Styles -- Smartphones */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px)
+{
+	.i-button
+	{
+		width: 90px;
+		height: 90px;
+	}
 }
