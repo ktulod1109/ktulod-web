@@ -1,28 +1,7 @@
-body
+.media-hub
 {
-	margin: 20px 0;
+	min-height: 90%;
 	text-align: center;
-	background-color: #fdfdfd;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	color: #4a4a4d;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-footer
-{
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-
-	text-align: center;
-	background-color: #fdfdfd;
-	line-height: 120%;
-	position: fixed;
-}
-
-.content {
-	margin: 0;
 }
 
 .name
@@ -70,6 +49,18 @@ footer
 
 .menu-item:hover{color: #aaaaad;}
 
+.self-image
+{
+	background-image: url('/assets/img/selfimage-button.png');
+	width: 200px;
+	height: 200px;
+	margin: 20px auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-filter: drop-shadow(0px 8px 5px rgba(0,0,0,0.5));
+}
+
 .detail-wrapper
 {
 	margin: 30px auto;
@@ -89,12 +80,13 @@ footer
 .detail-label.email:after {content: "Contact me by email.";}
 .detail-label.flickr:after {content: "Explore me on Flickr.";}
 .detail-label.twitter:after {content: "Follow me on Twitter.";}
+.detail-label.portfolio:after {content: "Review my previous work.";}
 
 .i-button
 {
 	display: inline-block;
-	width: 200px;
-	height: 200px;
+	width: 175px;
+	height: 175px;
 	margin: 20px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -107,6 +99,7 @@ footer
 .i-button.email {background-image: url('/assets/img/email-button.png');}
 .i-button.flickr {background-image: url('/assets/img/flickr-button.png');}
 .i-button.twitter {background-image: url('/assets/img/twitter-button.png');}
+.i-button.portfolio {background-image: url('/assets/img/portfolio-button.png');}
 .i-button:hover {-webkit-filter: drop-shadow(0px 8px 5px rgba(0,0,0,0.5));}
 .i-button a
 {

@@ -1,0 +1,57 @@
+.page-header
+{
+	text-align: center;
+	font-size: 50px;
+}
+
+.paged-section
+{
+	width: 100%;
+	min-height: 600px;
+	padding-top: 10px;
+}
+
+.paged-section.ventures {background-color: #f1f1f1;}
+.paged-section.clients {background-color: white;}
+.paged-section.you {background-color: #f1f1f1;}
+
+.section-header
+{
+	font-size: 36px;
+	margin: 24px;
+}
+
+.entry-container.left
+{
+	float: left;
+	margin-left: 100px;
+}
+.entry-container.right
+{
+	overflow: hidden;
+	margin-top: auto;
+	margin-bottom: auto;
+	padding: 24px;
+}
+
+.entry-header
+{
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+.entry-text
+{
+	font-size: 24px;
+	font-weight: 200;
+	line-height: 30px;
+
+	width: 75%;
+}
+
+.screenshot {
+	display: inline-block;
+	padding: 24px;
+	width: 275px;
+}
+.screenshot.inline {width: 150px;}
+.screenshot img {width: 100%;}

@@ -6,32 +6,118 @@
 	<title>Home | Kevin Tulod</title>
 	<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js' type='application/javascript'></script>
 	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700,200,300' rel='stylesheet' type='text/css' />
+	<link href='/assets/css/common.css' rel='stylesheet' type='text/css' />
 	<link href='/assets/css/main.css' rel='stylesheet' type='text/css' />
+	<link href='/assets/css/portfolio.css' rel='stylesheet' type='text/css' />
 	<base target="_blank" />
 </head>
 <body>
 <div class='content'>
-	<div class='name'>Kevin Tulod</div>
-	<div class='menu'>
-		<div class='menu-item follow'></div>
-		<div class='menu-item about'></div>
-		<div class='menu-item contact'></div>
+	<div class='media-hub'>
+		<div class='name'>Kevin Tulod</div>
+		<div class='menu'>
+			<div class='menu-item follow'></div>
+			<div class='menu-item about'></div>
+			<div class='menu-item contact'></div>
+		</div>
+		<div class='self-image'></div>
+		<div class='detail-wrapper'>
+			<div class='detail-label default'></div>
+			<div class='i-button portfolio about'><a target="_self" href='#portfolio'></a></div>
+			<div class='i-button email contact'><a target="_self" href='mailto:kt@kevintulod.com'></a></div>
+			<div class='i-button facebook follow'><a href='https://facebook.com/ktulod1109'></a></div>
+			<div class='i-button linkedin about contact'><a href='https://linkedin.com/in/kevintulod'></a></div>
+			<div class='i-button twitter follow'><a href='https://twitter.com/kevinctulod'></a></div>
+			<div class='i-button github about'><a href='https://github.com/ktulod1109'></a></div>
+			<div class='i-button flickr follow'><a href='https://flickr.com/photos/ktulod1109'></a></div>
+		</div>
 	</div>
-	<div class='detail-wrapper'>
-		<div class='detail-label default'></div>
-		<div class='i-button facebook follow'><a href='https://facebook.com/ktulod1109'></a></div>
-		<div class='i-button github about'><a href='https://github.com/ktulod1109'></a></div>
-		<div class='i-button linkedin about contact'><a href='https://linkedin.com/in/kevintulod'></a></div>
-		<div class='i-button email contact'><a href='mailto:kt@kevintulod.com'></a></div>
-		<div class='i-button flickr about'><a href='https://flickr.com/photos/ktulod1109'></a></div>
-		<div class='i-button twitter follow'><a href='https://twitter.com/kevinctulod'></a></div>
+	<div id='portfolio' class='portfolio'>
+		<div class='page-header'>Portfolio</div>
+		<div class='paged-section ventures'>
+			<div class='section-header'>Business Ventures</div>
+			<div class='entry echovey'>
+				<div class='entry-container left'>
+					<div class='screenshot'><img src='/assets/img/portfolio/echovey-01-shopfolio.png' alt='EchoVey Shopfolio' /></div>
+					<div class='screenshot'><img src='/assets/img/portfolio/echovey-02-poll.png' alt='EchoVey Poll' /></div>
+				</div>
+				<div class='entry-container right'>
+					<div class='entry-header'>EchoVey ~ Shop With Your Social Circle</div>
+					<div class='entry-text'>
+						<p>Co-Founder and iOS Development Lead</p>
+						<p>EchoVey brings the benefits of an online social circle into shopping experience.</p>
+						<p>Create a portfolio of items you are considering for purchase, poll your friends for personalized feedback, and comment on your friends' shopping goals.</p>
+						<p>Learn more at <a href='http://www.echovey.com'>echovey.com</a></p>
+					</div>
+				</div>
+				<div class='clear'></div>
+			</div>
+		</div>
+		<div class='paged-section clients'>
+			<div class='section-header'>Previous Positions and Clients</div>
+			<div class='entry hackerati'>
+				<div class='entry-container left'>
+					<div class='screenshot'><a href='http://thehackerati.com'><img src='/assets/img/portfolio/hackerati-text.png' alt='Hackerati Logo' /></a></div>
+				</div>
+				<div class='entry-container right'>
+					<div class='entry-header'>The Hackerati/Software Engineer (Web Frontends and APIs for Mobile Apps)</div>
+					<div class='entry-text'>
+						<p>The Hackerati is an Engineering as a Service consulting firm based in Manhattan specializing in Web, Mobile, Big Data, Analytics, Machine Learning, NLP, and embedded systems.</p>
+						<p>Main Client: <a href='http://huffingtonpost.com' style='color: #058b7b'>The Huffington Post</a></p>
+					</div>
+				</div>
+				<div class='clear'></div>
+			</div>
+			<div class='entry indorse'>
+				<div class='entry-container left'>
+					<div class='screenshot'><a href='http://callhome.it'><img src='/assets/img/portfolio/indorse-logo.png' alt='InDorse Logo' /></a></div>
+				</div>
+				<div class='entry-container right'>
+					<div class='entry-header'>InDorse Technologies/iOS Development Consultant</div>
+					<div class='entry-text'>
+						<p>InDorse is a software security company specializing in solutions for tracking file distribution. InDorse Call-Home allows users to track each file open of PDF and Office documents that are shared from your mobile device.</p>
+						<div class='screenshot inline'><img src='/assets/img/portfolio/indorse-00-login.png' alt='Call-Home Login'/></div>
+						<div class='screenshot inline'><img src='/assets/img/portfolio/indorse-01-details.png' alt='Call-Home Details' /></div>
+					</div>
+				</div>
+				<div class='clear'></div>
+			</div>
+			<div class='entry cooper'>
+				<div class='entry-container left'>
+					<div class='screenshot'><a href='http://cooper.edu'><img src='/assets/img/portfolio/cooper-logo.png' alt='Cooper Logo'/></a></div>
+				</div>
+				<div class='entry-container right'>
+					<div class='entry-header'>Cooper Union/Continuing Education Instructor (Building Apps for Mobile Devices)</div>
+					<div class='entry-text'>
+						<p>Instructor of Building Apps for Mobile Devices course at Cooper Union's Continuing Education department. Topics included getting started with iOS Development, the Xcode IDE, Objective-C, building web-enabled apps for iOS, basic principles of mobile UX, and concurrency.</p>
+						<p>Course offered in Fall 2012 and Fall 2013.</p>
+					</div>
+				</div>
+				<div class='clear'></div>
+			</div>
+		</div>
+		<div class='paged-section you'>
+			<div class='section-header'>Upcoming Projects: Yours.</div>
+			<div class='entry you'>
+				<div class='entry-container left'>
+					<div class='screenshot'><img src='/assets/img/portfolio/you-logo.png' alt='You Logo'/></div>
+				</div>
+				<div class='entry-container right'>
+					<div class='entry-header'>Do you have an idea for the next great app? <a style='color: red' target='_self' href='mailto:kt@kevintulod.com'>Let's talk.</a></div>
+					<div class='entry-text'>
+						<p>I specialize in iOS app development, web frontends, and web backends. Whether you are a well-established business or are new to the industry, I will help you get your next idea off the ground and into the hands of your customers.</p>
+					</div>
+				</div>
+				<div class='clear'></div>
+			</div>
+		</div>
 	</div>
 </div>
 <footer>
 	<div>2015 Kevin Tulod. all rights reserved.</div>
 </footer>
 
-<script src='/assets/js/i-detail.js' type='application/javascript'></script>
+<script src='/assets/js/main.js' type='application/javascript'></script>
 
 </body>
 </html>
