@@ -77,7 +77,7 @@
 .detail-label.linkedin:after {content: "Connect to me on LinkedIn.";}
 .detail-label.facebook:after {content: "Friend me on Facebook.";}
 .detail-label.github:after {content: "Fork me on GitHub.";}
-.detail-label.email:after {content: "Contact me by email.";}
+.detail-label.email:after {content: "Send me your story.";}
 .detail-label.flickr:after {content: "Explore me on Flickr.";}
 .detail-label.twitter:after {content: "Follow me on Twitter.";}
 .detail-label.portfolio:after {content: "Review my previous work.";}
@@ -100,7 +100,7 @@
 .i-button.flickr {background-image: url('/assets/img/flickr-button.png');}
 .i-button.twitter {background-image: url('/assets/img/twitter-button.png');}
 .i-button.portfolio {background-image: url('/assets/img/portfolio-button.png');}
-.i-button:hover {-webkit-filter: drop-shadow(0px 8px 5px rgba(0,0,0,0.5));}
+.i-button:hover {-webkit-filter: drop-shadow(0px 1px 5px rgba(0,0,0,0.5));}
 .i-button a
 {
 	width: 100%;

@@ -21,6 +21,11 @@
 	margin: 24px;
 }
 
+.entry.whoami
+{
+	margin-bottom: 80px;
+}
+
 .entry-container.left
 {
 	float: left;
@@ -32,6 +37,14 @@
 	margin-top: auto;
 	margin-bottom: auto;
 	padding: 24px;
+}
+
+.entry-container.solo
+{
+	margin: auto 400px;
+	padding: 20px;
+	background-color: #f1f1f1;
+	border-radius: 20px;
 }
 
 .entry-header
@@ -46,6 +59,11 @@
 	line-height: 30px;
 
 	width: 75%;
+}
+
+.entry-text.solo
+{
+	width: 100%;
 }
 
 .screenshot {
