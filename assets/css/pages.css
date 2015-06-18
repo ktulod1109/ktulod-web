@@ -74,3 +74,14 @@
 }
 .screenshot.inline {width: 150px;}
 .screenshot img {width: 100%;}
+
+/* Responsive Styles -- Smartphones */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+{
+	.entry-container.solo
+	{
+		width: 100%;
+	}
+}
